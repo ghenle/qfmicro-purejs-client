@@ -1,0 +1,222 @@
+@import url( 'fontello.min.css' );
+@import url( 'icon-th.min.css' );
+@import url( 'footnote.css' );
+
+:root {
+  --row-height: 4rem;
+}
+/* var(--row-height); */
+
+.bg-blue-1 {
+  background: #2B74B7;
+}
+a[class*=" icon-"]:before {
+  color: #63a2da;
+  text-decoration: none;
+  aspect-ratio: 1 / 1;
+}
+* ::-webkit-scrollbar {
+    width: 20px;
+    height: 20px
+}
+* ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid #fff0;
+    background-clip: content-box;
+    min-height: 50px
+}
+* ::-webkit-scrollbar-track {
+    background-color: #fff0
+}
+
+* {
+  font-family: Roboto,serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: fit-content;
+  width:  fit-content;  
+  box-sizing: border-box;
+  min-height: 100%;
+  min-width: 100%;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(3rem, auto) minmax(3rem, auto) 1fr;
+}
+
+div.display {
+  min-height: 600px;
+}
+
+#chart[data-dislay="off"] {
+  display: none;
+}
+#chart[data-dislay="on"] {
+  display: flex;
+  min-height: 800px;
+  background: url(./images/demochart.png) no-repeat;
+  background-size: 100% auto;
+  margin: 0 1rem;
+}
+
+#data {
+  display: grid;
+  grid-template-columns: minmax(350px, 1fr) repeat(auto-fit, minmax(150px, 1fr));
+  margin: 0 1rem;
+}
+#data div.table {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(3rem, auto) 1fr;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+}
+#data > div.table > div.title {
+  display: flex;
+  font-weight: bold;
+  padding: 0.2rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  height: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#data > div.table > div.title.controls {
+  background: url(./images/democontrols.png) no-repeat;
+  background-size: auto 32px;
+  background-position: bottom 0.25rem right 2.0rem;
+}
+#data > div.table > div.data {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  font-size: 0.75rem;
+
+  div[data-type] {
+    display: grid !important;
+    grid-template-columns: 1fr;
+
+    > h4 {
+      color: #ffffff;
+      font-size: 0.9375rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: #2b74b7;
+      margin: 0;
+      padding: 0.5rem 1.0rem;
+    }
+
+    > div[data-topic] {
+      display: grid !important;
+      grid-template-columns: 1fr;
+      grid-auto-rows: var(--row-height);
+
+      > h5 {
+        display: flex;
+        align-items: center;
+        font-size: 0.8125rem;
+        font-weight: bold;
+        background: #f6f6f6;
+        margin: 0;
+        padding: 0.5rem 
+      }
+
+      > span.property {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: var(--row-height);
+        font-size: 0.75rem;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #dde;
+        
+        > span {
+          display: flex;
+          align-items: center;
+          padding: 0 0.5rem;
+        }
+        > span[data-mnemonic] {
+
+          > a::before {
+            font-size: 1.25em !important;
+          }
+        }
+        > span:not([data-mnemonic]) {
+          justify-content: flex-end;
+        }
+      }
+      > span.property:nth-child(odd) {
+        background-color: #fcfdfe;
+      }
+    }
+  }
+}
+#data > div.table:not(:nth-child(1)) {
+  > div.data {
+    > div[data-type] {
+      > h4 > span {
+        visibility: hidden;
+      }
+      > h4 > span:after {
+        content: ' ';
+      }
+      > div[data-topic] {
+        > h5 > span {
+          visibility: hidden;
+        }
+        > h5 > span:after {
+          content: ' ';
+        }
+        > span.property {
+          > span[data-mnemonic] {
+            display: none;
+          }
+          > span:nth-child(2n) {
+            grid-column: 1 / 3;
+          }
+        }
+      }
+    } 
+  }
+}
+/*
+#data > div.table:not(:nth-child(1)) > div.data div[data-topic] > span.property > span:nth-child(2n) {
+  grid-column: 1 / 3;
+}
+*/
+div.note {
+  position: relative;
+  display: inline-block;
+  height: 0.875rem;
+  margin-right: 1.5rem;
+  cursor: help;
+}
+div.note > span {
+  position: absolute;
+  display: inline-block;
+  font-family: "icon-th" !important;
+  width: 1rem;
+  height: 0.875rem;
+  font-weight: normal !important;
+}
+div.note > span[title] {
+  color: #000000;
+}
+div.note.source > span:not([title]) {
+  color: #c1d6f1;
+}
+div.note.foot > span:not([title]) {
+  color: #fffacd;
+}
+
+ul[aria-label]:before{
+    content:attr(aria-label);
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-left:-1.5rem;
+}

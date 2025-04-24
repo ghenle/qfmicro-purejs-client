@@ -1,0 +1,2472 @@
+{
+    "data": {
+        "nation": [
+            {
+                "file": "geos.pack",
+                "size": "50B",
+                "bytes": 50
+            },
+            {
+                "file": "values.pack",
+                "size": "781B",
+                "bytes": 781
+            }
+        ],
+        "72": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.4KB",
+                    "bytes": 7575
+                },
+                {
+                    "file": "values.pack",
+                    "size": "55.4KB",
+                    "bytes": 56725
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.28KB",
+                    "bytes": 5406
+                },
+                {
+                    "file": "values.pack",
+                    "size": "33.66KB",
+                    "bytes": 34470
+                }
+            ]
+        },
+        "56": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.69KB",
+                    "bytes": 1729
+                },
+                {
+                    "file": "values.pack",
+                    "size": "19.02KB",
+                    "bytes": 19476
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.22KB",
+                    "bytes": 1250
+                },
+                {
+                    "file": "values.pack",
+                    "size": "14.5KB",
+                    "bytes": 14847
+                }
+            ]
+        },
+        "55": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.68KB",
+                    "bytes": 5816
+                },
+                {
+                    "file": "values.pack",
+                    "size": "59.77KB",
+                    "bytes": 61203
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.68KB",
+                    "bytes": 4795
+                },
+                {
+                    "file": "values.pack",
+                    "size": "36.92KB",
+                    "bytes": 37806
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "12.91KB",
+                    "bytes": 13217
+                },
+                {
+                    "file": "values.pack",
+                    "size": "130.33KB",
+                    "bytes": 133454
+                }
+            ]
+        },
+        "54": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.89KB",
+                    "bytes": 5009
+                },
+                {
+                    "file": "values.pack",
+                    "size": "45.1KB",
+                    "bytes": 46185
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.89KB",
+                    "bytes": 2958
+                },
+                {
+                    "file": "values.pack",
+                    "size": "26.2KB",
+                    "bytes": 26824
+                }
+            ]
+        },
+        "53": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "3.22KB",
+                    "bytes": 3299
+                },
+                {
+                    "file": "values.pack",
+                    "size": "32.65KB",
+                    "bytes": 33434
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "16.63KB",
+                    "bytes": 17028
+                },
+                {
+                    "file": "values.pack",
+                    "size": "164.75KB",
+                    "bytes": 168701
+                }
+            ]
+        },
+        "51": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "11.41KB",
+                    "bytes": 11685
+                },
+                {
+                    "file": "values.pack",
+                    "size": "109.99KB",
+                    "bytes": 112633
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "15.89KB",
+                    "bytes": 16272
+                },
+                {
+                    "file": "values.pack",
+                    "size": "165.65KB",
+                    "bytes": 169628
+                }
+            ]
+        },
+        "50": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.07KB",
+                    "bytes": 1094
+                },
+                {
+                    "file": "values.pack",
+                    "size": "11.62KB",
+                    "bytes": 11894
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.65KB",
+                    "bytes": 2711
+                },
+                {
+                    "file": "values.pack",
+                    "size": "21.36KB",
+                    "bytes": 21877
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.02KB",
+                    "bytes": 1043
+                },
+                {
+                    "file": "values.pack",
+                    "size": "10.78KB",
+                    "bytes": 11038
+                }
+            ]
+        },
+        "49": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.8KB",
+                    "bytes": 1839
+                },
+                {
+                    "file": "values.pack",
+                    "size": "24.05KB",
+                    "bytes": 24623
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.49KB",
+                    "bytes": 6649
+                },
+                {
+                    "file": "values.pack",
+                    "size": "82.33KB",
+                    "bytes": 84309
+                }
+            ]
+        },
+        "48": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "16.86KB",
+                    "bytes": 17263
+                },
+                {
+                    "file": "values.pack",
+                    "size": "208.92KB",
+                    "bytes": 213938
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "29.27KB",
+                    "bytes": 29968
+                },
+                {
+                    "file": "values.pack",
+                    "size": "363.99KB",
+                    "bytes": 372723
+                }
+            ]
+        },
+        "47": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.45KB",
+                    "bytes": 7625
+                },
+                {
+                    "file": "values.pack",
+                    "size": "78.47KB",
+                    "bytes": 80351
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "9.68KB",
+                    "bytes": 9910
+                },
+                {
+                    "file": "values.pack",
+                    "size": "96.97KB",
+                    "bytes": 99294
+                }
+            ]
+        },
+        "46": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.66KB",
+                    "bytes": 5792
+                },
+                {
+                    "file": "values.pack",
+                    "size": "53.4KB",
+                    "bytes": 54679
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.65KB",
+                    "bytes": 1694
+                },
+                {
+                    "file": "values.pack",
+                    "size": "16.11KB",
+                    "bytes": 16494
+                }
+            ]
+        },
+        "45": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.39KB",
+                    "bytes": 4499
+                },
+                {
+                    "file": "values.pack",
+                    "size": "38.45KB",
+                    "bytes": 39371
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "9.8KB",
+                    "bytes": 10036
+                },
+                {
+                    "file": "values.pack",
+                    "size": "86.29KB",
+                    "bytes": 88356
+                }
+            ]
+        },
+        "44": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "460B",
+                    "bytes": 460
+                },
+                {
+                    "file": "values.pack",
+                    "size": "4.25KB",
+                    "bytes": 4353
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.02KB",
+                    "bytes": 4116
+                },
+                {
+                    "file": "values.pack",
+                    "size": "28.6KB",
+                    "bytes": 29285
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.48KB",
+                    "bytes": 1515
+                },
+                {
+                    "file": "values.pack",
+                    "size": "13.3KB",
+                    "bytes": 13618
+                }
+            ]
+        },
+        "42": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.95KB",
+                    "bytes": 6096
+                },
+                {
+                    "file": "values.pack",
+                    "size": "56.22KB",
+                    "bytes": 57571
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "57.09KB",
+                    "bytes": 58460
+                },
+                {
+                    "file": "values.pack",
+                    "size": "384.05KB",
+                    "bytes": 393268
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "25.43KB",
+                    "bytes": 26042
+                },
+                {
+                    "file": "values.pack",
+                    "size": "221.33KB",
+                    "bytes": 226638
+                }
+            ]
+        },
+        "41": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.5KB",
+                    "bytes": 2564
+                },
+                {
+                    "file": "values.pack",
+                    "size": "30.04KB",
+                    "bytes": 30763
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.41KB",
+                    "bytes": 7590
+                },
+                {
+                    "file": "values.pack",
+                    "size": "86.92KB",
+                    "bytes": 89009
+                }
+            ]
+        },
+        "40": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.81KB",
+                    "bytes": 5947
+                },
+                {
+                    "file": "values.pack",
+                    "size": "63.47KB",
+                    "bytes": 64989
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.58KB",
+                    "bytes": 5711
+                },
+                {
+                    "file": "values.pack",
+                    "size": "63.75KB",
+                    "bytes": 65285
+                }
+            ]
+        },
+        "39": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.59KB",
+                    "bytes": 5723
+                },
+                {
+                    "file": "values.pack",
+                    "size": "73.39KB",
+                    "bytes": 75149
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "19.68KB",
+                    "bytes": 20148
+                },
+                {
+                    "file": "values.pack",
+                    "size": "246.97KB",
+                    "bytes": 252899
+                }
+            ]
+        },
+        "38": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.54KB",
+                    "bytes": 4649
+                },
+                {
+                    "file": "values.pack",
+                    "size": "42.93KB",
+                    "bytes": 43957
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.31KB",
+                    "bytes": 1344
+                },
+                {
+                    "file": "values.pack",
+                    "size": "12.74KB",
+                    "bytes": 13042
+                }
+            ]
+        },
+        "37": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "9.25KB",
+                    "bytes": 9475
+                },
+                {
+                    "file": "values.pack",
+                    "size": "83.44KB",
+                    "bytes": 85444
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "15.97KB",
+                    "bytes": 16356
+                },
+                {
+                    "file": "values.pack",
+                    "size": "140.58KB",
+                    "bytes": 143959
+                }
+            ]
+        },
+        "36": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.72KB",
+                    "bytes": 4837
+                },
+                {
+                    "file": "values.pack",
+                    "size": "52.31KB",
+                    "bytes": 53570
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "35.9KB",
+                    "bytes": 36762
+                },
+                {
+                    "file": "values.pack",
+                    "size": "297.97KB",
+                    "bytes": 305120
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "29.05KB",
+                    "bytes": 29748
+                },
+                {
+                    "file": "values.pack",
+                    "size": "296.6KB",
+                    "bytes": 303720
+                }
+            ]
+        },
+        "35": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.65KB",
+                    "bytes": 2712
+                },
+                {
+                    "file": "values.pack",
+                    "size": "27.3KB",
+                    "bytes": 27951
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "3.94KB",
+                    "bytes": 4036
+                },
+                {
+                    "file": "values.pack",
+                    "size": "39.44KB",
+                    "bytes": 40391
+                }
+            ]
+        },
+        "34": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.71KB",
+                    "bytes": 1754
+                },
+                {
+                    "file": "values.pack",
+                    "size": "18.11KB",
+                    "bytes": 18541
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "27.74KB",
+                    "bytes": 28410
+                },
+                {
+                    "file": "values.pack",
+                    "size": "200.94KB",
+                    "bytes": 205764
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "25.49KB",
+                    "bytes": 26105
+                },
+                {
+                    "file": "values.pack",
+                    "size": "237.53KB",
+                    "bytes": 243231
+                }
+            ]
+        },
+        "33": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "959B",
+                    "bytes": 959
+                },
+                {
+                    "file": "values.pack",
+                    "size": "8.43KB",
+                    "bytes": 8634
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "8.71KB",
+                    "bytes": 8918
+                },
+                {
+                    "file": "values.pack",
+                    "size": "61.9KB",
+                    "bytes": 63382
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.37KB",
+                    "bytes": 2425
+                },
+                {
+                    "file": "values.pack",
+                    "size": "22.3KB",
+                    "bytes": 22840
+                }
+            ]
+        },
+        "32": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.19KB",
+                    "bytes": 1223
+                },
+                {
+                    "file": "values.pack",
+                    "size": "14KB",
+                    "bytes": 14341
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.44KB",
+                    "bytes": 2494
+                },
+                {
+                    "file": "values.pack",
+                    "size": "27.93KB",
+                    "bytes": 28600
+                }
+            ]
+        },
+        "31": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.9KB",
+                    "bytes": 7064
+                },
+                {
+                    "file": "values.pack",
+                    "size": "75.16KB",
+                    "bytes": 76968
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.54KB",
+                    "bytes": 2602
+                },
+                {
+                    "file": "values.pack",
+                    "size": "28.77KB",
+                    "bytes": 29462
+                }
+            ]
+        },
+        "30": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.23KB",
+                    "bytes": 4332
+                },
+                {
+                    "file": "values.pack",
+                    "size": "45.55KB",
+                    "bytes": 46643
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.06KB",
+                    "bytes": 2109
+                },
+                {
+                    "file": "values.pack",
+                    "size": "21.78KB",
+                    "bytes": 22303
+                }
+            ]
+        },
+        "29": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "8.67KB",
+                    "bytes": 8875
+                },
+                {
+                    "file": "values.pack",
+                    "size": "94.48KB",
+                    "bytes": 96746
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "11.29KB",
+                    "bytes": 11562
+                },
+                {
+                    "file": "values.pack",
+                    "size": "121.95KB",
+                    "bytes": 124880
+                }
+            ]
+        },
+        "28": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.97KB",
+                    "bytes": 7141
+                },
+                {
+                    "file": "values.pack",
+                    "size": "67.43KB",
+                    "bytes": 69046
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.76KB",
+                    "bytes": 5901
+                },
+                {
+                    "file": "values.pack",
+                    "size": "56.84KB",
+                    "bytes": 58205
+                }
+            ]
+        },
+        "27": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.9KB",
+                    "bytes": 7062
+                },
+                {
+                    "file": "values.pack",
+                    "size": "71.69KB",
+                    "bytes": 73408
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.11KB",
+                    "bytes": 1132
+                },
+                {
+                    "file": "values.pack",
+                    "size": "7.65KB",
+                    "bytes": 7838
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "12.45KB",
+                    "bytes": 12753
+                },
+                {
+                    "file": "values.pack",
+                    "size": "129KB",
+                    "bytes": 132096
+                }
+            ]
+        },
+        "26": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.35KB",
+                    "bytes": 6503
+                },
+                {
+                    "file": "values.pack",
+                    "size": "68.95KB",
+                    "bytes": 70601
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "30.31KB",
+                    "bytes": 31034
+                },
+                {
+                    "file": "values.pack",
+                    "size": "215.71KB",
+                    "bytes": 220883
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "14.13KB",
+                    "bytes": 14467
+                },
+                {
+                    "file": "values.pack",
+                    "size": "151.74KB",
+                    "bytes": 155382
+                }
+            ]
+        },
+        "25": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.31KB",
+                    "bytes": 1341
+                },
+                {
+                    "file": "values.pack",
+                    "size": "12.01KB",
+                    "bytes": 12295
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "27.15KB",
+                    "bytes": 27799
+                },
+                {
+                    "file": "values.pack",
+                    "size": "197.95KB",
+                    "bytes": 202701
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "10.99KB",
+                    "bytes": 11249
+                },
+                {
+                    "file": "values.pack",
+                    "size": "99.47KB",
+                    "bytes": 101854
+                }
+            ]
+        },
+        "24": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.95KB",
+                    "bytes": 1993
+                },
+                {
+                    "file": "values.pack",
+                    "size": "20.32KB",
+                    "bytes": 20809
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "16.32KB",
+                    "bytes": 16710
+                },
+                {
+                    "file": "values.pack",
+                    "size": "170.56KB",
+                    "bytes": 174658
+                }
+            ]
+        },
+        "23": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.13KB",
+                    "bytes": 1155
+                },
+                {
+                    "file": "values.pack",
+                    "size": "13.4KB",
+                    "bytes": 13717
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.55KB",
+                    "bytes": 5681
+                },
+                {
+                    "file": "values.pack",
+                    "size": "48.69KB",
+                    "bytes": 49854
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.05KB",
+                    "bytes": 2095
+                },
+                {
+                    "file": "values.pack",
+                    "size": "25.76KB",
+                    "bytes": 26374
+                }
+            ]
+        },
+        "22": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.44KB",
+                    "bytes": 5575
+                },
+                {
+                    "file": "values.pack",
+                    "size": "53.08KB",
+                    "bytes": 54349
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "8.44KB",
+                    "bytes": 8644
+                },
+                {
+                    "file": "values.pack",
+                    "size": "89.76KB",
+                    "bytes": 91914
+                }
+            ]
+        },
+        "21": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "9KB",
+                    "bytes": 9219
+                },
+                {
+                    "file": "values.pack",
+                    "size": "98.26KB",
+                    "bytes": 100621
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.09KB",
+                    "bytes": 7256
+                },
+                {
+                    "file": "values.pack",
+                    "size": "72.81KB",
+                    "bytes": 74559
+                }
+            ]
+        },
+        "20": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.24KB",
+                    "bytes": 7416
+                },
+                {
+                    "file": "values.pack",
+                    "size": "85.44KB",
+                    "bytes": 87495
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.56KB",
+                    "bytes": 4666
+                },
+                {
+                    "file": "values.pack",
+                    "size": "55.17KB",
+                    "bytes": 56497
+                }
+            ]
+        },
+        "19": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.31KB",
+                    "bytes": 6461
+                },
+                {
+                    "file": "values.pack",
+                    "size": "81.27KB",
+                    "bytes": 83219
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.62KB",
+                    "bytes": 5755
+                },
+                {
+                    "file": "values.pack",
+                    "size": "72.9KB",
+                    "bytes": 74651
+                }
+            ]
+        },
+        "18": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.63KB",
+                    "bytes": 6790
+                },
+                {
+                    "file": "values.pack",
+                    "size": "76.2KB",
+                    "bytes": 78029
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "10.06KB",
+                    "bytes": 10302
+                },
+                {
+                    "file": "values.pack",
+                    "size": "112.73KB",
+                    "bytes": 115437
+                }
+            ]
+        },
+        "17": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.67KB",
+                    "bytes": 7858
+                },
+                {
+                    "file": "values.pack",
+                    "size": "84.16KB",
+                    "bytes": 86181
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "27.93KB",
+                    "bytes": 28599
+                },
+                {
+                    "file": "values.pack",
+                    "size": "283.21KB",
+                    "bytes": 290006
+                }
+            ]
+        },
+        "16": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.92KB",
+                    "bytes": 2988
+                },
+                {
+                    "file": "values.pack",
+                    "size": "36.22KB",
+                    "bytes": 37085
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.35KB",
+                    "bytes": 2407
+                },
+                {
+                    "file": "values.pack",
+                    "size": "30.7KB",
+                    "bytes": 31434
+                }
+            ]
+        },
+        "15": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "351B",
+                    "bytes": 351
+                },
+                {
+                    "file": "values.pack",
+                    "size": "4.19KB",
+                    "bytes": 4288
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.06KB",
+                    "bytes": 4155
+                },
+                {
+                    "file": "values.pack",
+                    "size": "46.76KB",
+                    "bytes": 47881
+                }
+            ]
+        },
+        "13": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "11.43KB",
+                    "bytes": 11701
+                },
+                {
+                    "file": "values.pack",
+                    "size": "131.12KB",
+                    "bytes": 134271
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "13.13KB",
+                    "bytes": 13443
+                },
+                {
+                    "file": "values.pack",
+                    "size": "144.61KB",
+                    "bytes": 148083
+                }
+            ]
+        },
+        "12": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.9KB",
+                    "bytes": 5020
+                },
+                {
+                    "file": "values.pack",
+                    "size": "56.63KB",
+                    "bytes": 57986
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "38.69KB",
+                    "bytes": 39620
+                },
+                {
+                    "file": "values.pack",
+                    "size": "406.3KB",
+                    "bytes": 416047
+                }
+            ]
+        },
+        "11": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "135B",
+                    "bytes": 135
+                },
+                {
+                    "file": "values.pack",
+                    "size": "897B",
+                    "bytes": 897
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "123B",
+                    "bytes": 123
+                },
+                {
+                    "file": "values.pack",
+                    "size": "915B",
+                    "bytes": 915
+                }
+            ]
+        },
+        "10": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "236B",
+                    "bytes": 236
+                },
+                {
+                    "file": "values.pack",
+                    "size": "2.59KB",
+                    "bytes": 2649
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.6KB",
+                    "bytes": 1638
+                },
+                {
+                    "file": "values.pack",
+                    "size": "17.74KB",
+                    "bytes": 18165
+                }
+            ]
+        },
+        "09": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.33KB",
+                    "bytes": 1357
+                },
+                {
+                    "file": "values.pack",
+                    "size": "7.47KB",
+                    "bytes": 7653
+                }
+            ],
+            "cousub": [
+                {
+                    "file": "geos.pack",
+                    "size": "24.31KB",
+                    "bytes": 24892
+                },
+                {
+                    "file": "values.pack",
+                    "size": "117.22KB",
+                    "bytes": 120033
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "6.12KB",
+                    "bytes": 6263
+                },
+                {
+                    "file": "values.pack",
+                    "size": "56.03KB",
+                    "bytes": 57373
+                }
+            ]
+        },
+        "08": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.86KB",
+                    "bytes": 4974
+                },
+                {
+                    "file": "values.pack",
+                    "size": "52.85KB",
+                    "bytes": 54114
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "8.85KB",
+                    "bytes": 9062
+                },
+                {
+                    "file": "values.pack",
+                    "size": "96.25KB",
+                    "bytes": 98556
+                }
+            ]
+        },
+        "06": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.83KB",
+                    "bytes": 4944
+                },
+                {
+                    "file": "values.pack",
+                    "size": "49.36KB",
+                    "bytes": 50543
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "56.51KB",
+                    "bytes": 57870
+                },
+                {
+                    "file": "values.pack",
+                    "size": "557.16KB",
+                    "bytes": 570530
+                }
+            ]
+        },
+        "05": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.68KB",
+                    "bytes": 5821
+                },
+                {
+                    "file": "values.pack",
+                    "size": "61.69KB",
+                    "bytes": 63175
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "5.55KB",
+                    "bytes": 5679
+                },
+                {
+                    "file": "values.pack",
+                    "size": "60.08KB",
+                    "bytes": 61526
+                }
+            ]
+        },
+        "04": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.07KB",
+                    "bytes": 1099
+                },
+                {
+                    "file": "values.pack",
+                    "size": "12.73KB",
+                    "bytes": 13031
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "7.4KB",
+                    "bytes": 7573
+                },
+                {
+                    "file": "values.pack",
+                    "size": "80.9KB",
+                    "bytes": 82841
+                }
+            ]
+        },
+        "02": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "2.89KB",
+                    "bytes": 2958
+                },
+                {
+                    "file": "values.pack",
+                    "size": "24.45KB",
+                    "bytes": 25032
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.73KB",
+                    "bytes": 1772
+                },
+                {
+                    "file": "values.pack",
+                    "size": "19.86KB",
+                    "bytes": 20338
+                }
+            ]
+        },
+        "01": {
+            "county": [
+                {
+                    "file": "geos.pack",
+                    "size": "4.87KB",
+                    "bytes": 4990
+                },
+                {
+                    "file": "values.pack",
+                    "size": "55.55KB",
+                    "bytes": 56888
+                }
+            ],
+            "place": [
+                {
+                    "file": "geos.pack",
+                    "size": "8.77KB",
+                    "bytes": 8977
+                },
+                {
+                    "file": "values.pack",
+                    "size": "100.28KB",
+                    "bytes": 102689
+                }
+            ]
+        },
+        "00": {
+            "state": [
+                {
+                    "file": "geos.pack",
+                    "size": "1.63KB",
+                    "bytes": 1664
+                },
+                {
+                    "file": "values.pack",
+                    "size": "36.5KB",
+                    "bytes": 37375
+                }
+            ]
+        }
+    },
+    "baseEncoding": "",
+    "BuildTime": 1739375787,
+    "dataFiles": {
+        "values": "values.pack",
+        "geos": "geos.pack"
+    },
+    "factIdx": {
+        "1": {
+            "mnemonic": "PST045224",
+            "label": "Population estimates, July 1, 2024, (V2024)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "2": {
+            "mnemonic": "PST045223",
+            "label": "Population estimates, July 1, 2023, (V2023)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "3": {
+            "mnemonic": "PST040224",
+            "label": "Population estimates base, April 1, 2020, (V2024)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "4": {
+            "mnemonic": "PST040223",
+            "label": "Population estimates base, April 1, 2020, (V2023)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "5": {
+            "mnemonic": "PST120224",
+            "label": "Population, percent change - April 1, 2020 (estimates base) to July 1, 2024, (V2024)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "6": {
+            "mnemonic": "PST120223",
+            "label": "Population, percent change - April 1, 2020 (estimates base) to July 1, 2023, (V2023)",
+            "type": "People",
+            "topic": "Population",
+            "note": {
+                "US": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "nation": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                },
+                "PR": {
+                    "county": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "cousub": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "place": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable.",
+                    "state": "The vintage year (e.g., V2023) refers to the final year of the series (2020 thru 2023). Different vintage years of estimates are not comparable."
+                }
+            }
+        },
+        "7": {
+            "mnemonic": "POP010220",
+            "label": "Population, Census, April 1, 2020",
+            "type": "People",
+            "topic": "Population",
+            "note": false
+        },
+        "8": {
+            "mnemonic": "POP010210",
+            "label": "Population, Census, April 1, 2010",
+            "type": "People",
+            "topic": "Population",
+            "note": false
+        },
+        "9": {
+            "mnemonic": "AGE135223",
+            "label": "Persons under 5 years, percent",
+            "type": "People",
+            "topic": "Age and Sex",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "10": {
+            "mnemonic": "AGE295223",
+            "label": "Persons under 18 years, percent",
+            "type": "People",
+            "topic": "Age and Sex",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "11": {
+            "mnemonic": "AGE775223",
+            "label": "Persons 65 years and over, percent",
+            "type": "People",
+            "topic": "Age and Sex",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "12": {
+            "mnemonic": "SEX255223",
+            "label": "Female persons, percent",
+            "type": "People",
+            "topic": "Age and Sex",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "13": {
+            "mnemonic": "RHI125223",
+            "label": "White alone, percent",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "14": {
+            "mnemonic": "RHI225223",
+            "label": "Black alone, percent (a)",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "15": {
+            "mnemonic": "RHI325223",
+            "label": "American Indian and Alaska Native alone, percent (a)",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "16": {
+            "mnemonic": "RHI425223",
+            "label": "Asian alone, percent (a)",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "17": {
+            "mnemonic": "RHI525223",
+            "label": "Native Hawaiian and Other Pacific Islander alone, percent (a)",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "18": {
+            "mnemonic": "RHI625223",
+            "label": "Two or More Races, percent",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "19": {
+            "mnemonic": "RHI725223",
+            "label": "Hispanic or Latino, percent (b)",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "20": {
+            "mnemonic": "RHI825223",
+            "label": "White alone, not Hispanic or Latino, percent",
+            "type": "People",
+            "topic": "Race and Hispanic Origin",
+            "note": {
+                "US": {
+                    "county": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "nation": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: Vintage 2023 Population Estimates Program.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources.",
+                    "state": "Source: 2023 American Community Survey (ACS), 5-year estimates.  Estimates are not comparable to other geographic levels due to methodology differences that may exist between different data sources."
+                }
+            }
+        },
+        "21": {
+            "mnemonic": "VET605223",
+            "label": "Veterans, 2019-2023",
+            "type": "People",
+            "topic": "Population Characteristics",
+            "note": false
+        },
+        "22": {
+            "mnemonic": "POP645223",
+            "label": "Foreign-born persons, percent, 2019-2023",
+            "type": "People",
+            "topic": "Population Characteristics",
+            "note": false
+        },
+        "23": {
+            "mnemonic": "HSG010223",
+            "label": "Housing Units, July 1, 2023, (V2023)",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "24": {
+            "mnemonic": "HSG445223",
+            "label": "Owner-occupied housing unit rate, 2019-2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "25": {
+            "mnemonic": "HSG495223",
+            "label": "Median value of owner-occupied housing units, 2019-2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "26": {
+            "mnemonic": "HSG650223",
+            "label": "Median selected monthly owner costs - with a mortgage, 2019-2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "27": {
+            "mnemonic": "HSG651223",
+            "label": "Median selected monthly owner costs -without a mortage, 2019-2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "28": {
+            "mnemonic": "HSG860223",
+            "label": "Median gross rent, 2019-2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "29": {
+            "mnemonic": "BPS030223",
+            "label": "Building Permits, 2023",
+            "type": "People",
+            "topic": "Housing",
+            "note": false
+        },
+        "30": {
+            "mnemonic": "HSD410223",
+            "label": "Households, 2019-2023",
+            "type": "People",
+            "topic": "Families & Living Arrangements",
+            "note": false
+        },
+        "31": {
+            "mnemonic": "HSD310223",
+            "label": "Persons per household, 2019-2023",
+            "type": "People",
+            "topic": "Families & Living Arrangements",
+            "note": false
+        },
+        "32": {
+            "mnemonic": "POP715223",
+            "label": "Living in the same house 1 year ago, percent of persons age 1 year+ ,  2019-2023",
+            "type": "People",
+            "topic": "Families & Living Arrangements",
+            "note": false
+        },
+        "33": {
+            "mnemonic": "POP815223",
+            "label": "Language other than English spoken at home, percent of persons age 5 years+, 2019-2023",
+            "type": "People",
+            "topic": "Families & Living Arrangements",
+            "note": false
+        },
+        "34": {
+            "mnemonic": "COM100223",
+            "label": "Households with a computer, percent, 2019-2023",
+            "type": "People",
+            "topic": "Computer and Internet Use",
+            "note": false
+        },
+        "35": {
+            "mnemonic": "INT100223",
+            "label": "Households with a broadband Internet subscription, percent, 2019-2023",
+            "type": "People",
+            "topic": "Computer and Internet Use",
+            "note": false
+        },
+        "36": {
+            "mnemonic": "EDU635223",
+            "label": "High school graduate or higher, percent of persons age 25 years+, 2019-2023",
+            "type": "People",
+            "topic": "Education",
+            "note": false
+        },
+        "37": {
+            "mnemonic": "EDU685223",
+            "label": "Bachelor's degree or higher, percent of persons age 25 years+, 2019-2023",
+            "type": "People",
+            "topic": "Education",
+            "note": false
+        },
+        "38": {
+            "mnemonic": "DIS010223",
+            "label": "With a disability, under age 65 years, percent, 2019-2023",
+            "type": "People",
+            "topic": "Health",
+            "note": false
+        },
+        "39": {
+            "mnemonic": "HEA775223",
+            "label": "Persons without health insurance, under age 65 years, percent",
+            "type": "People",
+            "topic": "Health",
+            "note": {
+                "US": {
+                    "county": "Source: 2022 Small Area Health Insurance Estimates (SAHIE). Estimates are not comparable to other geographic levels of health estimates.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates. Estimates are not comparable to other geographic levels of health estimates.",
+                    "nation": "2023 Estimates-Source: 2024 Current Population Survey, Annual Social and Economic Supplement (CPS ASEC). Estimates are not comparable to other geographic levels of health estimates.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates. Estimates are not comparable to other geographic levels of health estimates.",
+                    "state": "Source: 2023 American Community Survey (ACS), 1-year estimates. Estimates are not comparable to other geographic levels of health estimates."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates. These estimates are comparable to zonas urbanas and comunidades geographic level of health estimates.",
+                    "cousub": "Source: 2018 American Community Survey (ACS), 5-year estimates. Estimates are not comparable to other geographic levels of health data.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates. These estimates are comparable to the municipios geographic level of health estimates.",
+                    "state": "Source: 2023 American Community Survey (ACS), 1-year estimates. Estimates are not comparable to other geographic levels of health estimates."
+                }
+            }
+        },
+        "40": {
+            "mnemonic": "LFE041223",
+            "label": "In civilian labor force, total, percent of population age 16 years+, 2019-2023",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "41": {
+            "mnemonic": "LFE046223",
+            "label": "In civilian labor force, female, percent of population age 16 years+, 2019-2023",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "42": {
+            "mnemonic": "AFN120222",
+            "label": "Total accommodation and food services sales, 2022 ($1,000)",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "43": {
+            "mnemonic": "HCN010222",
+            "label": "Total health care and social assistance receipts\/revenue, 2022 ($1,000)",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "44": {
+            "mnemonic": "TAW120222",
+            "label": "Total transportation and warehousing receipts\/revenue, 2022 ($1,000)",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "45": {
+            "mnemonic": "RTN130222",
+            "label": "Total retail sales, 2022 ($1,000)",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "46": {
+            "mnemonic": "RTN131222",
+            "label": "Total retail sales per capita, 2022",
+            "type": "People",
+            "topic": "Economy",
+            "note": false
+        },
+        "47": {
+            "mnemonic": "LFE305223",
+            "label": "Mean travel time to work (minutes), workers age 16 years+, 2019-2023",
+            "type": "People",
+            "topic": "Transportation",
+            "note": false
+        },
+        "48": {
+            "mnemonic": "INC110223",
+            "label": "Median households income (in 2023 dollars), 2019-2023",
+            "type": "People",
+            "topic": "Income & Poverty",
+            "note": false
+        },
+        "49": {
+            "mnemonic": "INC910223",
+            "label": "Per capita income in past 12 months (in 2023 dollars), 2019-2023",
+            "type": "People",
+            "topic": "Income & Poverty",
+            "note": false
+        },
+        "50": {
+            "mnemonic": "IPE120223",
+            "label": "Persons in poverty, percent",
+            "type": "People",
+            "topic": "Income & Poverty",
+            "note": {
+                "US": {
+                    "county": "Source: 2023 Small Area Income and Poverty Estimates (SAIPE). Estimates are not comparable to other geographic levels of poverty estimates.",
+                    "cousub": "Source: 2023 American Community Survey (ACS), 5-year estimates. Estimates are not comparable to other geographic levels of poverty estimates.",
+                    "nation": "2023 Estimates-Source: 2024 Current Population Survey, Annual Social and Economic Supplement (CPS ASEC). Estimates are not comparable to other geographic levels of poverty estimates.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates. Estimates are not comparable to other geographic levels of poverty estimates.",
+                    "state": "Source: 2023 American Community Survey (ACS), 1-year estimates. Estimates are not comparable to other geographic levels of poverty estimates."
+                },
+                "PR": {
+                    "county": "Source: 2023 American Community Survey (ACS), 5-year estimates. These estimates are comparable to zona urbanas and comunidades geographic level of poverty estimates.",
+                    "cousub": "Source: 2018 American Community Survey (ACS, 5-year estimates. Estimates are not comparable to other geographic levels of poverty data.",
+                    "place": "Source: 2023 American Community Survey (ACS), 5-year estimates. These estimates are comparable to the municipios geographic level of poverty estimates.",
+                    "state": "Source: 2023 American Community Survey (ACS), 1-year estimates. Estimates are not comparable to other geographic levels of health estimates."
+                }
+            }
+        },
+        "51": {
+            "mnemonic": "BZA010222",
+            "label": "Total employer establishments, 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "52": {
+            "mnemonic": "BZA110222",
+            "label": "Total employment, 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "53": {
+            "mnemonic": "BZA210222",
+            "label": "Total annual payroll, 2022 ($1,000)",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "54": {
+            "mnemonic": "BZA115222",
+            "label": "Total employment, percent change, 2021-2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "55": {
+            "mnemonic": "NES010222",
+            "label": "Total nonemployer establishments, 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "56": {
+            "mnemonic": "SBO001222",
+            "label": "All employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "57": {
+            "mnemonic": "SBO010222",
+            "label": "Men-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "58": {
+            "mnemonic": "SBO020222",
+            "label": "Women-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "59": {
+            "mnemonic": "SBO030222",
+            "label": "Minority-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "60": {
+            "mnemonic": "SBO040222",
+            "label": "Nonminority-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "61": {
+            "mnemonic": "SBO050222",
+            "label": "Veteran-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "62": {
+            "mnemonic": "SBO060222",
+            "label": "Nonveteran-owned employer firms, Reference year 2022",
+            "type": "Businesses",
+            "topic": "Businesses",
+            "note": false
+        },
+        "63": {
+            "mnemonic": "POP060220",
+            "label": "Population per square mile, 2020",
+            "type": "Geography",
+            "topic": "Geography",
+            "note": false
+        },
+        "64": {
+            "mnemonic": "POP060210",
+            "label": "Population per square mile, 2010",
+            "type": "Geography",
+            "topic": "Geography",
+            "note": false
+        },
+        "65": {
+            "mnemonic": "LND110220",
+            "label": "Land area in square miles, 2020",
+            "type": "Geography",
+            "topic": "Geography",
+            "note": false
+        },
+        "66": {
+            "mnemonic": "LND110210",
+            "label": "Land area in square miles, 2010",
+            "type": "Geography",
+            "topic": "Geography",
+            "note": false
+        }
+    },
+    "unitIdx": {
+        "1": {
+            "unit": "ABS",
+            "precision": "0"
+        },
+        "2": {
+            "unit": "AVG",
+            "precision": "2"
+        },
+        "3": {
+            "unit": "DOL",
+            "precision": "0"
+        },
+        "4": {
+            "unit": "MIN",
+            "precision": "1"
+        },
+        "5": {
+            "unit": "PCT",
+            "precision": "1"
+        },
+        "6": {
+            "unit": "RTE",
+            "precision": "1"
+        },
+        "7": {
+            "unit": "SQM",
+            "precision": "2"
+        }
+    },
+    "datasetIdx": {
+        "1": "PR",
+        "2": "US"
+    },
+    "flagIdx": {
+        "1": {
+            "code": "-",
+            "value": "Either no or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest or upper interval of an open ended distribution."
+        },
+        "2": {
+            "code": "D",
+            "value": "Suppressed to avoid disclosure of confidential information"
+        },
+        "3": {
+            "code": "F",
+            "value": "Fewer than 25 firms"
+        },
+        "4": {
+            "code": "FN",
+            "value": "Footnote on this item in place of data"
+        },
+        "5": {
+            "code": "N",
+            "value": "Data for this geographic area cannot be displayed because the number of sample cases is too small."
+        },
+        "6": {
+            "code": "NA",
+            "value": "Not available"
+        },
+        "7": {
+            "code": "S",
+            "value": "Suppressed; does not meet publication standards"
+        },
+        "8": {
+            "code": "X",
+            "value": "Not applicable"
+        },
+        "9": {
+            "code": "Z",
+            "value": "Value greater than zero but less than half unit of measure shown"
+        }
+    },
+    "footnoteIdx": {
+        "1": {
+            "code": "5002",
+            "value": "Independent city of Bedford, Virginia (51515) changed to town status and was added to Bedford County (51019) effective July 1, 2013."
+        },
+        "2": {
+            "code": "5003",
+            "value": "Changed name and code from Wade Hampton Census Area, Alaska (02270) to Kusilvak Census Area, Alaska (02158) effective July 1, 2015."
+        },
+        "3": {
+            "code": "5004",
+            "value": "Changed name and code from Shannon County, South Dakota (46113) to Oglala Lakota County, South Dakota (46102) effective May 1, 2015."
+        },
+        "4": {
+            "code": "5047",
+            "value": "Skagway Municipality included with Hoonah-Angoon Census Area; data not available separately. **02230 incl. with 02105."
+        },
+        "5": {
+            "code": "5090",
+            "value": "Wrangell City and Borough included with Petersburg Census Area; data not available separately. **02275 incl. with 02195."
+        },
+        "6": {
+            "code": "6004",
+            "value": "No business locations were reported."
+        },
+        "7": {
+            "code": "6005",
+            "value": "Represents 0-19 employees."
+        },
+        "8": {
+            "code": "6006",
+            "value": "Represents 20-99 employees."
+        },
+        "9": {
+            "code": "6007",
+            "value": "Represents 100-249 employees."
+        },
+        "10": {
+            "code": "6008",
+            "value": "Represents 250-499 employees."
+        },
+        "11": {
+            "code": "6009",
+            "value": "Represents 500-999 employees."
+        },
+        "12": {
+            "code": "6010",
+            "value": "Represents 1,000-2,499 employees."
+        },
+        "13": {
+            "code": "6011",
+            "value": "Represents 2,500-4,999 employees."
+        },
+        "14": {
+            "code": "6012",
+            "value": "Represents 5,000-9,999 employees."
+        },
+        "15": {
+            "code": "6013",
+            "value": "Represents 10,000-24,999 employees."
+        },
+        "16": {
+            "code": "6014",
+            "value": "Represents 25,000-49,999 employees.\r"
+        },
+        "17": {
+            "code": "6015",
+            "value": "Represents 50,000-99,999 employees.\r"
+        },
+        "18": {
+            "code": "6016",
+            "value": "Represents 100,000 or more employees.\r"
+        },
+        "19": {
+            "code": "6021",
+            "value": "Data may be subject to publication minimums that vary\u00a0by\u00a0industry\u00a0and geography."
+        },
+        "20": {
+            "code": "6509",
+            "value": "Either no or too few sample observations were available to compute an estimate , or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest or upper interval of an open ended distribution."
+        },
+        "21": {
+            "code": "6510",
+            "value": "Median household income is $250,000 or higher."
+        },
+        "22": {
+            "code": "6511",
+            "value": "Median of selected monthly owner costs--without a mortgage is $1,500 or higher."
+        },
+        "23": {
+            "code": "6512",
+            "value": "Median of selected monthly owner costs--with a mortgage is $4,000 or higher."
+        },
+        "24": {
+            "code": "6513",
+            "value": "Median gross rent estimate is $3,500 or higher."
+        },
+        "25": {
+            "code": "6514",
+            "value": "Median household income is $2,500 or lower."
+        },
+        "26": {
+            "code": "6515",
+            "value": "Median value estimate is $2,000,000 or higher."
+        },
+        "27": {
+            "code": "6516",
+            "value": "Median value estimate is $10,000 or lower."
+        },
+        "28": {
+            "code": "7022",
+            "value": "Includes data not distributed by county."
+        }
+    },
+    "sumLevelIdx": {
+        "1": {
+            "label": "nation",
+            "length": "2"
+        },
+        "2": {
+            "label": "state",
+            "length": "2"
+        },
+        "3": {
+            "label": "county",
+            "length": "5"
+        },
+        "4": {
+            "label": "place",
+            "length": "7"
+        },
+        "5": {
+            "label": "cousub",
+            "length": "10"
+        }
+    }
+}

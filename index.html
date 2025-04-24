@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DEMO: QF Client DB Test</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="QF Test Page">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/table.css">
+  <link rel="stylesheet" href="assets/css/dialog.css">
+  <link rel="stylesheet" href="assets/css/titlebar.css">
+  <link rel="stylesheet" href="assets/css/topnav.css">
+</head>
+<body>
+
+<!-- start cb header -->
+<!--#set var="cb_banner_add" value="0" -->
+<!--#set var="cb_banner_file" value="%%bannersBaseDir%%cb_banner_connecticut.inc" -->
+<!--#include virtual="/main/hfr_lite/cb_header_lite.inc" -->
+<!-- end cb header -->
+
+  <dialog class="quick info">
+    <form method="dialog" class="bg-blue-1">
+      <span></span>
+      <span>
+        <button title="Close">
+          <span class="icon-cancel"></span>
+        </button>
+      </span>
+    </form>
+    <div class="content"></div>
+    <form method="dialog">
+      <span></span>
+      <span>
+        <button title="Close">
+          Close
+        </button>
+      </span>
+    </form>
+  </dialog>
+  <dialog class="quick link">
+    <form method="dialog" class="bg-blue-1">
+      <span></span>
+      <span>
+        <button title="Close">
+          <span class="icon-cancel"></span>
+        </button>
+      </span>
+    </form>
+    <div class="content"></div>
+    <form method="dialog">
+      <span></span>
+      <span>
+        <button title="Close">
+          Close
+        </button>
+      </span>
+    </form>
+  </dialog>
+  <dialog class="quick faq">
+    <form method="dialog" class="bg-blue-1">
+      <span>What's New &amp; FAQs</span>
+      <span>
+        <button title="Close">
+          <span class="icon-cancel"></span>
+        </button>
+      </span>
+    </form>
+    <div class="content"></div>
+    <form method="dialog">
+      <span></span>
+      <span>
+        <button title="Close">
+          Close
+        </button>
+      </span>
+    </form>
+  </dialog>
+  <dialog class="quick notice">
+    <form method="dialog" class="bg-blue-1">
+      <span></span>
+      <span>
+        <button title="Close">
+          <span class="icon-cancel"></span>
+        </button>
+      </span>
+    </form>
+    <div class="content"></div>
+    <form method="dialog">
+      <span></span>
+      <span>
+        <button title="Close">
+          Close
+        </button>
+      </span>
+    </form>
+  </dialog>
+  <main>
+    <header class="titlebar">
+      <div>
+        <h1>QuickFacts</h1>
+        <h2></h2>
+        <p>QuickFacts provides statistics for all states and counties. Also for cities and towns with a <em><strong>population of 5,000 or more</strong></em>.</p>
+      </div>
+      <!--
+      <div>
+        <a href="assets/templates/faq.html">What's New &amp; FAQs</a>
+      </div>
+      -->
+    </header>
+
+    <nav class="topnav">
+      <div class="queries">
+        <search>
+          <form>
+            <input type="search" placeholder="Search Loading ... " disabled>
+          </form>
+        </search>
+        <div class="select" tabindex="-1" role="listbox">
+        </div>
+        <button class="reset">
+          <span class="icon-ccw">Reset</span>
+        </button>
+      </div>
+      <div class="icons">
+        <div class="icon clear">
+          <div>
+            <a id="nav-link-clear" class="icon-ccw" title="Reset selection to the US"><span>Clear</span></a>
+          </div>
+        </div>
+        <div class="icon faq" data-url="assets/templates/faq.html">
+          <div>
+            <a id="nav-link-faq" class="icon-help" title="What's New and FAQs"><span>New &amp; FAQ</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="display">
+      <div id="data" itemscope itemtype="https://schema.org/DataCatalog"></div>
+      <div id="chart" data-dislay="off"></div>
+    </div>
+  </main>
+
+<!-- start qf footnotes -->
+<!--#include virtual="./assets/templates/footnotes.html" -->
+<!-- end qf footnotes -->
+
+<!-- start cb footer -->
+<!--#include virtual="/main/hfr_lite/cb_footer_lite.inc" -->
+<!-- end cb footer -->
+
+  <script type="module">
+  import {get, XHR, BIN, DB, NUM, config, Fuse, HTML} from './assets/js/get.js';
+
+  const search   = document.querySelector('nav.topnav > div.queries > search');
+  const sInput   = search.querySelector('input[type="search"]');
+  const data     = document.querySelector('#data');
+  const chart    = document.querySelector('#chart');
+  const geos     = document.querySelector('header.titlebar > div:first-child > h2');
+  const time     = document.querySelector('header.titlebar > div:last-child > span');
+  const reset    = document.querySelector('nav.topnav > div.queries > button');
+  const clear    = document.querySelector('nav.topnav > div.icons > div.icon.clear');
+  const faq      = document.querySelector('nav.topnav > div.icons > div.icon.faq');
+  const select   = document.querySelector('nav.topnav > div.queries > div.select');
+  //const faqLink  = document.querySelector('header.titlebar > div:last-child a');
+  const dialog1  = document.querySelector('dialog.quick.info');
+  const dialog1H = dialog1.querySelector('form:first-child > span');
+  const dialog1C = dialog1.querySelector('div.content');
+  const dialog2  = document.querySelector('dialog.quick.link');
+  const dialog2H = dialog2.querySelector('form:first-child > span');
+  const dialog2C = dialog2.querySelector('div.content');
+  const dialog3  = document.querySelector('dialog.quick.faq');
+  const dialog3H = dialog3.querySelector('form:first-child > span');
+  const dialog3C = dialog3.querySelector('div.content');
+  const dialog4  = document.querySelector('dialog.quick.notice');
+  const dialog4H = dialog4.querySelector('form:first-child > span');
+  const dialog4C = dialog4.querySelector('div.content');
+  const pathReg  = /([^\/]+\/[^\/]+)\/$/;
+  const valueReg = /[a-zA-Z\+]/;
+
+  let timeout   = null;
+  let getGeo    = null;
+  let stage     = 0;
+  let response  = {};
+  let geoArray  = [];
+  let fuse      = null;
+  let usFuse    = null;
+  let fuseIdx   = null;
+  let usFuseIdx = null;
+  
+  const clearChart = () => {
+    data.querySelectorAll('[style]').forEach(e => e.removeAttribute('style'));
+    chart.setAttribute('data-dislay', 'off');
+
+    data.querySelectorAll('div.table > div.title').forEach((e) => {
+      e.setAttribute('class', 'title');
+    });
+  }
+  
+  const searchFuse = (value) => {
+    clearChart();
+
+    let sliced = [];
+    
+    if ( value ) {
+      let result0 = usFuse.search(`=${value}`);
+      let result1 = fuse.search(`=${value}`);
+      let result2 = fuse.search(`\`${value}`);
+      let result3 = fuse.search(value);
+      
+      if ( result0.length ) {
+        result0.forEach((r)=>{sliced.push(r.item)});
+      }
+      if ( result1.length ) {
+        result1.forEach((r)=>{sliced.push(r.item)});
+      }
+      if ( result2.length ) {
+        result2.forEach((r)=>{sliced.push(r.item)});
+      }
+      if ( result3.length ) {
+        result3.forEach((r)=>{sliced.push(r.item)});
+      }
+    }
+
+    if ( sliced.length ) {
+      let reduced = Array.from(new Set(sliced.map(arr => JSON.stringify(arr)))).map(str => JSON.parse(str));
+
+      return reduced.slice(0, 20);
+    } else {
+      return [config.searchEmpty];
+    }
+  }
+  const searchDB = (value) => {
+    clearChart();
+
+    let URL = `${config.searchURL}${value}`;
+
+    XHR.get(URL).then((json) => {
+      const jsonObj = JSON.parse(json);
+
+      if ( jsonObj.status === 200 ) {
+        return jsonObj.data;
+      }
+
+    }).catch((error) => {
+      console.error(error);
+      console.log(new Error().stack);
+    });
+    
+    return [config.searchEmpty];
+  }
+
+  const nixCurlyQuotes = (node) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.nodeValue = node.nodeValue
+        .replace(/[\u2018\u2019]/g, '&apos;') // Replace curly single quotes
+        .replace(/[\u201C\u201D]/g, '&quot;') // Replace curly double quotes
+        .replace(/[\u2013\u2014]/g, '-') // Replace en and em dashes
+        .replace(/\u2026/g, '...') // Replace ellipsis
+        .replace(/[\u00A0]/g, ' ') // Replace non-breaking space
+        .replace(/[\r\n]+/g, '\n') // Replace multiple line breaks with a single one
+        .replace(/[^\x00-\x7F]/g, ''); //Remove non-ASCII characters
+  
+    } else {
+      for (const child of node.childNodes) {
+        nixCurlyQuotes(child);
+      }
+    }
+  }
+
+  const formatValue = (value, unit, precision) => {
+    if ( valueReg.test(value) ) {
+      return value;
+    }
+
+    //console.log({unit, precision, NUM[unit](value, precision)});
+    return NUM[unit](value, precision);
+  }
+  const loadDialogContent = (modal, content, URL) => {
+    XHR.get(URL).then((html) => {
+      let qidoc = new DOMParser().parseFromString(html, 'text/html').querySelector('body');
+      let cleanStyles = qidoc.querySelectorAll('[style]').forEach(e => e.removeAttribute('style'));
+      
+      nixCurlyQuotes(qidoc);
+
+      content.replaceChildren();
+      while (qidoc.firstChild) {
+        content.appendChild(qidoc.firstChild);
+      }
+      
+      modal.showModal();
+    }).catch((error) => {
+      console.error(error);
+      console.log(new Error().stack);
+    });  
+  }
+  const openQuickInfo = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log( 'QuickInfo' + e.target.attributes.href.value );
+    
+    let URL    = e.target.getAttribute('href');
+    let header = e.target.getAttribute('data-fact');
+
+    dialog1H.innerHTML = header;
+    loadDialogContent(dialog1, dialog1C, URL);
+  }
+  const openQuickLink = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log( 'QuickLink' + e.target.attributes.href.value );
+    
+    let URL    = e.target.getAttribute('href');
+    let header = e.target.getAttribute('data-header');
+
+    dialog2H.innerHTML = header;
+    loadDialogContent(dialog2, dialog2C, URL);
+  }
+  const removeGeo = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    let geoid = e.target.getAttribute('data-geoid');
+
+    data.querySelector(`div.table[data-geoid="${geoid}"]`).remove();
+  }
+
+  function makeTable(XHRData){
+    //console.log(stage);
+    console.log(['response',XHRData]);
+
+    geoArray.push(XHRData.geos.data.fullname);
+    geos.replaceChildren();
+    
+    let type  = false;
+    let topic = false;
+
+    let div = document.createElement('div');
+    let geo = document.createElement('div');
+    let dat = document.createElement('div');
+    let mtd = document.createElement('meta');
+    let mtc = document.createElement('meta');
+    let mtl = document.createElement('meta');
+    let qlk = document.createElement('a');
+    let rem = document.createElement('a');
+    let gtx = document.createTextNode(XHRData.geos.data.fullname);
+    let ltx = document.createTextNode( geoArray.join('; ') );
+    let mft = BIN.manifest;
+    
+
+    let dataset = mft.datasetIdx[XHRData.geos.datasetIdx];
+    let level   = mft.sumLevelIdx[XHRData.geos.sumLevelIdx].label;
+
+    div.setAttribute('class',      'table');
+    div.setAttribute('data-geoid', XHRData.geos.geoid);
+    div.setAttribute('itemscope',  '');
+    div.setAttribute('itemtype',   'http://schema.org/Dataset');
+    geo.setAttribute('class',      'title');
+    geo.setAttribute('itemprop',   'name');
+    dat.setAttribute('class',      'data');
+    dat.setAttribute('role',       'table');
+    dat.setAttribute('aria-label', `${XHRData.geos.data.fullname} ${config.dataset.en.descMeta}`);
+
+    mtd.setAttribute('itemprop',  'description');
+    mtd.setAttribute('content',   `${XHRData.geos.data.fullname} ${config.dataset.en.descMeta}`);
+    mtc.setAttribute('itemprop',  'creator');
+    mtc.setAttribute('content',   config.dataset.en.creaMeta);
+    mtl.setAttribute('itemprop',  'license');
+    mtl.setAttribute('content',   config.dataset.en.liseMeta);
+
+    rem.setAttribute('class',     'remove icon-cancel-squared');
+    rem.setAttribute('rel',       'nofollow');
+    rem.setAttribute('data-geoid', XHRData.geos.geoid);
+    rem.setAttribute('title',     `Remove ${XHRData.geos.data.fullname}`);
+
+
+    if (XHRData.geos.geoid != '00') {
+      geo.appendChild(qlk);
+    }
+    geo.appendChild(gtx);
+    geo.appendChild(rem);
+    geo.appendChild(mtd);
+    geo.appendChild(mtc);
+    geo.appendChild(mtl);
+    div.appendChild(geo);
+    div.appendChild(dat);
+    geos.appendChild(ltx);
+
+    for (const fact of XHRData.values.data) {
+      let unit      = ( fact.unitIdx ) ? mft.unitIdx[fact.unitIdx].unit : fact.unitIdx;
+      let precision = ( fact.unitIdx ) ? mft.unitIdx[fact.unitIdx].precision : fact.unitIdx;
+      let note      = ( fact.footnoteIdx ) ? mft.footnoteIdx[fact.footnoteIdx] : fact.footnoteIdx;
+      let flag      = ( fact.flagIdx ) ? mft.flagIdx[fact.flagIdx] : fact.flagIdx;
+      let value     = formatValue(fact.value, unit, precision);
+      let manFact   = mft.factIdx[fact.factIdx];
+
+      if (manFact.type != type) {
+        type = manFact.type;
+
+        var typ = document.createElement('div');
+        let tyh = document.createElement('h4');
+        let tys = document.createElement('span');
+        let tyt = document.createTextNode( type );
+
+        typ.setAttribute('data-type', type);
+        
+        tys.appendChild(tyt);
+        tyh.appendChild(tys);
+        typ.appendChild(tyh);
+        dat.appendChild(typ);
+      }
+      if (manFact.topic != topic) {
+        topic = manFact.topic;
+
+        var top = document.createElement('div');
+        let toh = document.createElement('h5');
+        let tos = document.createElement('span');
+        let tot = document.createTextNode( topic );
+
+        top.setAttribute('data-topic', topic);
+
+        tos.appendChild(tot);
+        toh.appendChild(tos);
+        top.appendChild(toh);
+        typ.appendChild(top);
+      }
+
+      let qil = document.createElement('a');
+      let fct = document.createElement('span');
+      let val = document.createElement('span');
+      let prp = document.createElement('span');
+      let ftx = document.createTextNode(manFact.label);
+      let vtx = document.createTextNode(value);
+
+      if (manFact.note) {
+        let snd = HTML.exclaimIcon('source', manFact.note[ dataset ][ level ]);
+        val.appendChild(snd);
+      }
+
+      if (typeof note === 'object') {
+        let fnd = HTML.exclaimIcon('foot', note.value);
+        val.appendChild(fnd);
+      }
+
+      prp.setAttribute('class',         'property');
+      prp.setAttribute('data-mnemonic', manFact.mnemonic);
+      prp.setAttribute('itemprop',      'additionalProperty');
+      prp.setAttribute('itemscope',     '');
+      prp.setAttribute('itemtype',      'http://schema.org/PropertyValue');
+
+      fct.setAttribute('itemprop',      'name');
+      fct.setAttribute('data-mnemonic', manFact.mnemonic);
+      fct.setAttribute('data-unit',     unit);
+      fct.setAttribute('data-footnote', note);
+      fct.setAttribute('data-flag',     flag);
+
+      val.setAttribute('itemprop',      'value');
+
+      qil.setAttribute('class',         'quick info icon-info-circled-1');
+      qil.setAttribute('title',         config.quickInfo.en.title);
+      qil.setAttribute('tabindex',      '-1');
+      qil.setAttribute('target',        '_blank');
+      qil.setAttribute('data-fact',     manFact.label);
+      qil.setAttribute('href',          config.quickInfo.URL.replace('$1', manFact.mnemonic) );
+
+      fct.appendChild(qil);
+      fct.appendChild(ftx);
+      val.appendChild(vtx);
+      prp.appendChild(fct);
+      prp.appendChild(val);
+      top.appendChild(prp);
+      //dat.appendChild(prp);
+    }
+
+    // QuickLinks
+    if (XHRData.geos.geoid != '00') {
+      qlk.setAttribute('class',        'quick link icon-search');
+      qlk.setAttribute('title',        config.quickLink.en.title.replace('$1', XHRData.geos.data.fullname));
+      qlk.setAttribute('tabindex',     '-1');
+      qlk.setAttribute('target',       '_blank');
+      qlk.setAttribute('data-header',  config.quickLink.en.header.replace('$1', XHRData.geos.data.fullname));
+      qlk.setAttribute('href',         config.quickLink.URL.replace('$1', dataset).replace('$2', level));
+    }
+
+    // FIPS Code
+    if (XHRData.geos.geoid) {
+      let qil = document.createElement('a');
+      let fct = document.createElement('span');
+      let val = document.createElement('span');
+      let prp = document.createElement('span');
+      let ftx = document.createTextNode('FIPS Code');
+      let vtx = document.createTextNode(XHRData.geos.geoid == '00' ? '1' : XHRData.geos.geoid);
+
+      fct.setAttribute('data-mnemonic', 'fips');
+      fct.setAttribute('data-unit', 'STR');
+      fct.setAttribute('data-footnote', 0);
+      fct.setAttribute('data-flag', 0);
+      fct.setAttribute('itemprop',  'name');
+
+      val.setAttribute('itemprop',  'value');
+
+      prp.setAttribute('class',     'property');
+      prp.setAttribute('itemprop',  'additionalProperty');
+      prp.setAttribute('itemscope', '');
+      prp.setAttribute('itemtype',  'http://schema.org/PropertyValue');
+
+      qil.setAttribute('class',     'quickinfo icon-info-circled-1');
+      qil.setAttribute('title',     'Quick Info: Sources, Definitions, Methodology');
+      qil.setAttribute('tabindex',  '-1');
+      qil.setAttribute('target',    '_blank');
+      qil.setAttribute('data-fact', 'FIPS Code');
+      qil.setAttribute('href',      config.quickInfo.URL.replace('$1', 'fips') );
+      
+      fct.appendChild(qil);
+      fct.appendChild(ftx);
+      val.appendChild(vtx);
+      prp.appendChild(fct);
+      prp.appendChild(val);
+      top.appendChild(prp);
+    }
+
+    data.appendChild(div);
+  }
+  // XHRData
+
+  window.addEventListener(DB.statusEvent, (e) => {
+    //console.log(e.detail);
+    let sp = document.createElement('span');
+    let st = document.createElement('span');
+    let tp = null;
+    let tt = null;
+    let pa = BIN.dataPath.match(pathReg)[1];
+
+    switch (e.detail.status) {
+      case 'manifestLoaded':
+        console.log(['BIN.manifest.factIdx',BIN.manifest.factIdx]);
+        let sel = HTML.factSelect(
+          BIN.manifest.factIdx,
+          (e)=>{
+            e.preventDefault();
+            e.stopPropagation();
+            console.log(['typeCallback',e.currentTarget.dataset]);
+
+            let type  = e.currentTarget.dataset.type;
+
+            clearChart();
+            data.querySelectorAll(`div[data-type]:not([data-type="${type}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;}');
+            });
+
+            e.target.blur();
+            e.currentTarget.blur();
+          },
+          (e)=>{
+            e.preventDefault();
+            e.stopPropagation();
+            console.log(['topicCallback',e.currentTarget.dataset]);
+
+            let type  = e.currentTarget.dataset.type;
+            let topic = e.currentTarget.dataset.topic;
+            
+            clearChart();
+            data.querySelectorAll(`div[data-type]:not([data-type="${type}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;}');
+            });
+            data.querySelectorAll(`div[data-topic]:not([data-topic="${topic}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;');
+            });
+
+            e.target.blur();
+            e.currentTarget.blur();
+          },
+          (e)=>{
+            e.preventDefault();
+            e.stopPropagation();
+            console.log(['factCallback',e.currentTarget.dataset]);
+
+            let type  = e.currentTarget.dataset.type;
+            let topic = e.currentTarget.dataset.topic;
+            let fact  = e.currentTarget.dataset.mnemonic;
+            
+            clearChart();
+              data.querySelectorAll(`div[data-type]:not([data-type="${type}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;}');
+            });
+            data.querySelectorAll(`div[data-topic]:not([data-topic="${topic}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;');
+            });
+            data.querySelectorAll(`span.property[data-mnemonic]:not([data-mnemonic="${fact}"])`).forEach((e) => {
+              e.setAttribute('style', 'display:none !important;');
+            });
+
+            data.querySelectorAll('div.table > div.title').forEach((e) => {
+              e.setAttribute('class', 'title controls');
+            });
+            chart.setAttribute('data-dislay', 'on');
+
+            e.target.blur();
+            e.currentTarget.blur();
+          }
+        );
+        select.appendChild(sel);
+        return;
+      case 'loading':
+        stage++;
+        tp = document.createTextNode(pa);
+        tt = document.createTextNode('loading');
+        break;
+      case 'updated':
+        //stage = 2;
+        tp = document.createTextNode(pa);
+        tt = document.createTextNode('updated: ' + new Date(e.detail.timestamp * 1000).toString());
+        
+        if (e.detail.datapath == `${config.appRoot}query/nation/`) {
+          let url = './assets/templates/';
+
+          if ( e.detail.timestamp != 0 ) {
+            url += 'update.html';
+            let updateDate = new Date(e.detail.timestamp * 1000).toLocaleDateString(undefined, {year:'numeric', month:'short', day:'numeric'});
+            dialog4H.innerHTML = `Notice: Quickfacts was updated on ${updateDate}`;
+          } else {
+            url += 'welcome.html';
+            dialog4H.innerHTML = `Welcome to QuickFacts`;
+          }
+          console.log(url);
+          loadDialogContent(dialog4, dialog4C, url);
+        }
+        break;
+      case 'cached':
+        stage = 2;
+        tp = document.createTextNode(pa);
+        tt = document.createTextNode('cached');
+        break;
+      case 'lastModified':
+        tp = document.createTextNode(pa);
+        tt = document.createTextNode('created: ' + new Date(e.detail.timestamp * 1000).toString());
+        break;
+    }
+    if (tp && tt) {
+      sp.appendChild(tp);
+      st.appendChild(tt);
+    }
+
+    //time.replaceChildren(sp, st);
+
+    if( stage > 1 ) {
+      const tx  = DB.connection.transaction([DB.valuesTable, DB.geosTable], 'readonly');
+      const osv = tx.objectStore(DB.valuesTable);
+      const osg = tx.objectStore(DB.geosTable);
+
+      const rqv = osv.get(getGeo);
+      const rqg = osg.get(getGeo);
+
+      rqv.onsuccess = (e) => {
+        response.values = rqv.result;
+        stage++;
+        if ( stage > 3) {
+          makeTable(response);
+        }
+      };
+      rqg.onsuccess = (e) => {
+        response.geos = rqg.result;
+        stage++;
+        if ( stage > 3) {
+          makeTable(response);
+        }
+      };
+      tx.onerror = (e) => {
+        console.log(e)
+      };
+    }
+  });
+
+  sInput.addEventListener('keyup', (e) => {
+    document.querySelectorAll('ul.dropdown').forEach(e => e.remove());
+  });
+
+  sInput.addEventListener('keyup', (e) => {
+    if (e.isComposing || e.keyCode === 229 || e.target.value.length < 2) {
+      return;
+    }
+
+    document.querySelectorAll('ul.dropdown').forEach(e => e.remove());
+    clearTimeout(timeout);
+
+
+    timeout = setTimeout(() => {
+      const result = (typeof fuse === 'object')
+        ? searchFuse(e.target.value)
+        : searchDB(e.target.value);
+
+
+      console.log(['SEARCH',result]);
+ 
+      const ul = document.createElement('ul');
+      ul.setAttribute('class', 'dropdown');
+
+      let parent, getter;
+
+      for (const row of result) {
+        let
+          li = document.createElement('li'),
+          tx = document.createTextNode(row.label);
+
+        switch (row.level) {
+          case 'empty':
+            parent = null;
+            getter = false;
+          case 'nation':
+            parent = null;
+            getter = `${config.appRoot}query/${row.level}/`;
+            break;
+          case 'state':
+            parent = '00';
+            getter = `${config.appRoot}query/${parent}/${row.level}/`;
+            break;
+          default:
+            parent = row.geoid.substring(0,2);
+            getter = `${config.appRoot}query/${parent}/${row.level}/`;
+            break;
+        }
+
+        if ( getter!==false ) {
+          li.setAttribute('data-geoid',   row.geoid);
+          li.setAttribute('data-dataset', row.dataset);
+          li.setAttribute('data-getter',  getter);
+
+          li.addEventListener('click', (e) => {
+            let data = e.target.dataset;
+
+            stage = 0;
+            getGeo = data.geoid;
+
+            get(data.getter);
+            e.target.parentElement.remove();
+            sInput.value = '';
+          });
+        }
+
+        li.appendChild(tx);
+        ul.appendChild(li);
+      };
+
+      search.appendChild(ul);
+
+    }, 500);
+
+  });
+
+  clear.addEventListener('click', (e) => {
+    geoArray = [];
+    data.replaceChildren();
+    geos.replaceChildren();
+  });
+
+  faq.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    let URL = e.currentTarget.dataset.url;
+    loadDialogContent(dialog3, dialog3C, URL);
+  });
+
+
+  reset.addEventListener('click', clearChart);
+
+  /*
+  faqLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    let URL = e.target.getAttribute('href');
+    loadDialogContent(dialog3, dialog3C, URL);
+  });
+  //**/
+
+
+  select.addEventListener('blur', (e) => {
+    select.querySelector('ul').scrollTop = 0;
+  });
+
+
+  document.addEventListener('DOMContentLoaded', (e) => {
+    getGeo = '00';
+    get(`${config.appRoot}query/nation/`);
+
+    XHR.get(config.Fuse.URL).then((json) => {
+      const jsonObj = JSON.parse(json);
+      
+      jsonObj.sort((a,b)=>{
+        if (a.geoid.length < b.geoid.length) {
+          return -1;
+        }
+        if (a.geoid.length > b.geoid.length) {
+          return 1;
+        }
+        return 0;
+      });
+      
+      fuseIdx   = Fuse.createIndex(config.Fuse.indexOptions.keys, jsonObj);
+      usFuseIdx = Fuse.createIndex(config.Fuse.usIndexOptions.keys, jsonObj);
+      fuse      = new Fuse(jsonObj, config.Fuse.options, fuseIdx);
+      usFuse    = new Fuse(jsonObj, config.Fuse.options, usFuseIdx);
+
+      sInput.setAttribute('placeholder', 'Enter state, county, city, town, or zip code');
+      sInput.removeAttribute('disabled');
+    }).catch((error) => {
+      console.error(error);
+      console.log(new Error().stack);
+    });
+  });
+  
+  const observer = new MutationObserver((mutationList, observer) => {
+    mutationList.forEach((mutation) => {
+      switch(mutation.type){
+        case 'childList':
+          mutation.addedNodes.forEach((node) => {
+            switch(node.nodeType) {
+              case Node.ELEMENT_NODE:
+                //console.log(`${node.tagName} was added`);
+                if (node.tagName==='DIV' && node.classList.contains('table') ) {
+                  node.querySelectorAll('a.quick.info').forEach((link)=>{
+                    link.addEventListener('click', openQuickInfo);
+                  });
+                  node.querySelectorAll('a.quick.link').forEach((link)=>{
+                    link.addEventListener('click', openQuickLink);
+                  });
+                  node.querySelectorAll('a.remove[data-geoid]').forEach((link)=>{
+                    link.addEventListener('click', removeGeo);
+                  });
+                }
+              break;
+              case Node.TEXT_NODE:
+                //console.log(`+ Text "${node.nodeValue}" was added`);
+              break;
+              case Node.CDATA_SECTION_NODE:
+                //console.log(`+ CDATA "${node.data}" was added`);
+              break;
+            }
+          });
+          mutation.removedNodes.forEach((node) => {
+            switch(node.nodeType) {
+              case Node.ELEMENT_NODE:
+                //console.log(`- ${node.tagName} was removed`);
+              break;
+              case Node.TEXT_NODE:
+                //console.log(`- Text "${node.nodeValue}" was removed`);
+              break;
+              case Node.CDATA_SECTION_NODE:
+                //console.log(`- CDATA "${node.data}" was removed`);
+              break;
+            }
+          });
+        break;
+        case 'attributes':
+          //console.log(`+ ${mutation.target.tagName} attribute ${mutation.attributeName} was altered from "${mutation.oldValue}"`);
+        break;
+        case 'characterData':
+
+        break;
+      }
+    });
+  });
+
+  observer.observe(
+    document.querySelector('#data'),
+    {attributes:true, childList:true, subtree:true, characterData:true, attributeOldValue:true}
+    //{childList:true, subtree:true}
+  )
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" prefix="fb: http://www.facebook.com/2008/fbml og: http://opengraphprotocol.org/schema/">
+<head>
+  <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="" />
+  <meta name="title" content="" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="https:%%webhost%%%%imagesBaseDir%%census-logo-fb1.png" />
+  <title></title>
+  <link rel="stylesheet" href="%%cssBaseDir%%main.php">
+  <script src="%%jsBaseDir%%jquery-3.1.1.min.js"></script>
+  <!-- <script src="%%jsBaseDir%%jquery.mobile-1.4.5.js"></script> -->
+  <script src="%%jsBaseDir%%jquery-ui.min.js"></script>
+  <script type="text/javascript"> var $QF = $.noConflict(); </script>
+  <script src="%%jsBaseDir%%main.php?%%nocache%%"></script>
+  <script src="%%jsBaseDir%%colorControl.min.js"></script>
+  <script id="%%cssPrefix%%loadedcss" type="text/html"></script>
+</head>
+  <body>
+
+<!-- cb header excluded -->
+
+    <div id="qfcontent"><div id="dialog"></div><div id="dialog-small"></div></div>
+
+<!-- cb footer excluded -->
+
+    <script type="text/javascript">
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId   : '%%facebookKey%%',
+          xfbml   : true,
+          version : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+
+        if (d.getElementById(id)) {
+          return;
+        }
+
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>

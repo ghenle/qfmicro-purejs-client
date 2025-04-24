@@ -1,0 +1,9 @@
+@supports selector(::-webkit-scrollbar) {
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid #fff0;
+    background-clip: content-box;
+    min-height: 50px;
+  }
+}

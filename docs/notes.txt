@@ -1,0 +1,18 @@
+visualization display errors w/in the CRM (e.g. Community Resilience Estimates Ranking Tables were displaying incorrectly in mobile devices)
+
+<a class="quickinfo icon-info-circled-1" title="Quick Info: Sources, Definitions, Methodology" tabindex="-1" target="_blank" href="/quickfacts/note/PST045224"></a>
+
+
+<div class="qf-sourcenote">
+<span></span><span title="The vintage year (e.g., V2024) refers to the final year of the series (2020 thru 2024). Different vintage years of estimates are not comparable."></span>
+</div>
+
+Westphalia CDP, Maryland; Nevada; Benbrook city, Texas; Genesee County, Michigan; Coral Gables city, Florida
+
+http://web72.adsd.census.gov/quickfacts/fact/table'616378,2483290,32,4807552,26049,1214250/PST045223
+
+The worst case
+
+Old Saybrook town, Lower Connecticut
+
+Old Saybrook town, Lower Connecticut River Valley Planning Region, Connecticut

@@ -1,0 +1,60 @@
+/**
+ * titlebar fragment formatting
+ */
+header.titlebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0 0.5rem;
+}
+header.titlebar > div:first-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1.525em 0.9375em 1.375em;
+}
+header.titlebar > div:first-child > h1 {
+  color: #2B74B7;
+  font-size: 1.125em;
+  margin: 0.25em 0 0.15em 0;
+}
+header.titlebar > div:first-child > h2 {
+  color: #2B74B7;
+  font-size: 0.9375em;
+  margin: 0.15em 0 0 0;
+}
+header.titlebar > div:first-child > p {
+  font-size:  0.75em;
+  margin: 0.3125em 0;
+}
+header.titlebar > div:first-child > h2 span {
+  color: #ff7043;
+  font-size:  0.75em;
+}
+header.titlebar > div:last-child {
+  display: inline-block;
+  float: right;
+  top: 0;
+  right: 0;
+}
+header.titlebar > div:last-child a {
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+}
+header.titlebar > div:last-child a:hover {
+  text-decoration: underline;
+}
+header.titlebar > div:last-child a:after {
+  font-family: "icon-th" !important;
+  content: '\e80f';
+  color: #0095a8;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}

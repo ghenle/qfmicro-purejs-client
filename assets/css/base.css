@@ -1,0 +1,44 @@
+* {
+  font-family: Sans-Serif;
+}
+h3 {
+  margin-bottom: 0;
+}
+h4, h5 {
+  margin: 0;
+  font-weight: normal;
+}
+pre {
+  font-family: monospace !important;
+}
+#pTime {
+  padding: 0 1rem;
+  margin: 1rem 0;
+  height: 30px;
+}
+.progress {
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.progress > div {
+  width: 0%;
+  height: 30px;
+  background-color: #04AA6D;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+div.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div.stats > pre:nth-child(3) {
+  width: 100%;
+}
