@@ -5,7 +5,7 @@
 
 let config = {
   appRoot:   './',
-  searchURL: 'https://wdob.dev.adsd.census.gov/qf_test/search/json/?type=geo&search=',
+  searchURL: 'https://www.census.gov/qf_test/search/json/?type=geo&search=',
   searchEmpty: {
     label: 'No matches',
     level: 'empty'
