@@ -76,8 +76,8 @@ nav.topnav > div.queries search ul.dropdown > li:hover {
   background: #ddd;
 }
 
-nav.topnav > div.queries div.select:focus,
-nav.topnav > div.queries div.select:focus-within {
+nav.topnav > div.queries menu.select:focus,
+nav.topnav > div.queries menu.select:focus-within {
   max-height: 300px;
   overflow: visible;
   
@@ -103,7 +103,7 @@ nav.topnav > div.queries button.reset span {
   left: 0;
 }
 
-nav.topnav > div.queries div.select {
+nav.topnav > div.queries menu.select {
   display: flex;
   position: relative;
   background: #fff;
@@ -112,7 +112,7 @@ nav.topnav > div.queries div.select {
   margin: 0;
   overflow: hidden;
 }
-nav.topnav > div.queries div.select ul {
+nav.topnav > div.queries menu.select ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: repeat(auto-fit, 24px);
@@ -120,7 +120,7 @@ nav.topnav > div.queries div.select ul {
   margin: 0;
   padding: 0;
 }
-nav.topnav > div.queries div.select > ul {
+nav.topnav > div.queries menu.select > ul {
   position: absolute;
   background: #fff url(images/icons-svg/carat-u-black.svg) no-repeat right 1.5em top 5px;
   background-size: auto 18px;
@@ -133,12 +133,12 @@ nav.topnav > div.queries div.select > ul {
   z-index: 10;
   overflow: hidden;
 }
-nav.topnav > div.queries div.select:not(:focus) > ul,
-nav.topnav > div.queries div.select:not(:focus-within) > ul {
+nav.topnav > div.queries menu.select:not(:focus) > ul,
+nav.topnav > div.queries menu.select:not(:focus-within) > ul {
   background: #fff url(images/icons-svg/carat-d-black.svg) no-repeat left 275px top 2px;
   background-size: auto 18px;
 }
-nav.topnav > div.queries div.select li {
+nav.topnav > div.queries menu.select li {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -150,29 +150,29 @@ nav.topnav > div.queries div.select li {
   padding: 0;
   cursor: pointer;
 }
-nav.topnav > div.queries div.select li[data-mnemonic=""] {
+nav.topnav > div.queries menu.select li[data-mnemonic=""] {
   color: #999;
   line-height: 24px;
 }
-nav.topnav > div.queries div.select li[data-type] {
+nav.topnav > div.queries menu.select li[data-type] {
   color: #fff;
   font-weight: bold;
   text-indent: 5px;
   background: #2b74b7;
 }
-nav.topnav > div.queries div.select li[data-topic] {
+nav.topnav > div.queries menu.select li[data-topic] {
   color: #000;
   font-weight: bold;
   text-indent: 5px;
   background: #f6f6f6;
 }
-nav.topnav > div.queries div.select li[data-mnemonic]:not([data-mnemonic=""]) {
+nav.topnav > div.queries menu.select li[data-mnemonic]:not([data-mnemonic=""]) {
   color: #000;
   font-weight: normal;
   padding: 5px;
   background: #fff;
 }
-nav.topnav > div.queries div.select li[data-mnemonic]:not([data-mnemonic=""]):nth-child(odd) {
+nav.topnav > div.queries menu.select li[data-mnemonic]:not([data-mnemonic=""]):nth-child(odd) {
   background-color: #dde;
 }
  
