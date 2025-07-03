@@ -43,6 +43,7 @@ let HTML = {
         var ylt = document.createTextNode(type);
       
         yli.setAttribute('data-type', type);
+        yli.setAttribute('role', 'option');
         yli.addEventListener('click', typeCallback);
       
         yli.appendChild(ylt);
@@ -57,6 +58,7 @@ let HTML = {
       
         oli.setAttribute('data-type', type);
         oli.setAttribute('data-topic', topic);
+        oli.setAttribute('role', 'option');
         oli.addEventListener('click', topicCallback);
       
         oli.appendChild(olt);
