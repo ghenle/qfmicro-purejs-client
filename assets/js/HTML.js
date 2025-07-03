@@ -70,6 +70,7 @@ let HTML = {
       fli.setAttribute('data-type', type);
       fli.setAttribute('data-topic', topic);
       fli.setAttribute('data-mnemonic', fact.mnemonic);
+      fli.setAttribute('role', 'option');
       fli.addEventListener('click', factCallback);
       
       fli.appendChild(flt);
