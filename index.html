@@ -117,8 +117,8 @@
             <input type="search" placeholder="Search Loading ... " disabled>
           </form>
         </search>
-        <menu class="select" tabindex="-1" role="listbox">
-        </menu>
+        <div class="select" tabindex="-1" role="listbox">
+        </div>
         <button class="reset">
           <span class="icon-ccw">Reset</span>
         </button>
@@ -163,7 +163,7 @@
   const reset    = document.querySelector('nav.topnav > div.queries > button');
   const clear    = document.querySelector('nav.topnav > div.icons > div.icon.clear');
   const faq      = document.querySelector('nav.topnav > div.icons > div.icon.faq');
-  const select   = document.querySelector('nav.topnav > div.queries > menu.select');
+  const select   = document.querySelector('nav.topnav > div.queries > div.select');
   //const faqLink  = document.querySelector('header.titlebar > div:last-child a');
   const dialog1  = document.querySelector('dialog.quick.info');
   const dialog1H = dialog1.querySelector('form:first-child > span');
